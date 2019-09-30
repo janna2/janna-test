@@ -1,0 +1,87 @@
+* {
+     margin: 0;
+     padding: 0;
+ }
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Lato', sans-serif;
+}
+
+@import url("./fontawesome.css");
+
+/*@font-face {*/
+/*    font-family: 'Font Awesome 5 Free';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-display: auto;*/
+/*    src: url("../webfonts/fa-regular-400.eot");*/
+/*    src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");*/
+/*}*/
+
+#services{
+    background: #fff;
+    padding: 40px 0;
+}
+
+/*.services-title:before {*/
+/*    font-family: 'Font Awesome\ 5 Free';*/
+/*    content: "\f07c";*/
+/*    font-weight: 400;*/
+/*    color: #000;*/
+/*}*/
+
+.services-box{
+    margin: 40px 0;
+    text-align: center;
+    color: #555555;
+}
+
+.services-box:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 65px;
+    background: #F1EEE9;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -17px;
+}
+
+.services-box:hover::after {
+    background: #C7B299;
+}
+.services-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    color: #555555;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.services-box:hover .services-icon-box{
+    color: #C7B299;
+}
+
+.services-title {
+    padding: 15px 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.services-box:hover .services-title{
+    color: #C7B299;
+}
+.services-text {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
